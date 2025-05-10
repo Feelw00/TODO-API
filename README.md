@@ -39,6 +39,7 @@ JWT 인증과 카카오/네이버 소셜 로그인, Soft Delete, Pageable 검색
 | DELETE  | /todos/{id}    | TODO 삭제 (soft delete)     |
 | GET     | /todos/search	 | TODO 검색 (Pageable + Spec) |
 
-### 📎 참고
-- API 문서: http://localhost:8080/swagger-ui.html
-- DB: SQLite (로컬 테스트용)
+---
+
+### 📎 인증 프로세스
+![image](diagram.png)
