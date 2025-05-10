@@ -26,8 +26,6 @@ class SecurityConfig(
         "/swagger-resources/**",
         "/users/login",
         "/users/signup",
-        "/**",
-        "/v1/**"
     )
 
     @Bean
